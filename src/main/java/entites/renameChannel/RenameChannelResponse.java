@@ -1,8 +1,10 @@
-package entites.createChannel;
+package entites.renameChannel;
 
 import entites.BaseResponse;
+import entites.createChannel.Channel;
 
-public class CreateChannelResponse extends BaseResponse {
+public class RenameChannelResponse extends BaseResponse{
+	
 	 private Channel channel;
 
 	    private boolean ok;
@@ -35,6 +37,4 @@ public class CreateChannelResponse extends BaseResponse {
 		public void setError(String error) {
 			this.error = error;
 		}
-
-
 }

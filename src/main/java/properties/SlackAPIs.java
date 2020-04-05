@@ -9,7 +9,7 @@ public class SlackAPIs {
    
 	public static final String createChannelURL=String.format("%s/channels.create",slackAPIhost);
 	public static final String joinChannelURL=String.format("%s/channels.join",slackAPIhost);
-	public static final String channelListURL=String.format("%s/channels.list",slackAPIhost);
+	public static final String listChannelURL=String.format("%s/channels.list",slackAPIhost);
 	public static final String renameChannelURL=String.format("%s/channels.rename",slackAPIhost);
 	public static final String archiveChannelURL=String.format("%s/channels.archive",slackAPIhost);
 }
